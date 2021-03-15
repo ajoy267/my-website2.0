@@ -362,31 +362,6 @@ footer .copyright {
 }
 
 
-/***** Contact Page *****/
-.contact-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  color: #ffffff;
-  background-image: url(../img/jumping.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-}
-.contact-me h2 {
-  font-size: 2.25em;
-  text-align: center;
-  margin: 50px 0 0 0;
-}
-.contact-me p {
-  font-size: 1.5em;
-  text-align: center;
-  margin: 50px 0 0 0;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -549,16 +524,6 @@ footer .copyright {
     line-height: 1.75;
   }
 
-  /***** Contact Page *****/
-  .contact-me h2 {
-    font-size: 3em;
-    line-height: 2;
-  }
-  .contact-me p {
-    font-size: 2em;
-    line-height: 2;
-  }
-
   /* Footer */
   footer h4{
     font-size: 3em;
@@ -612,16 +577,6 @@ footer .copyright {
   .portfolio p {
     font-size: 1.5em;
     line-height: 1.75;
-  }
-
-  /***** Contact Page *****/
-  .contact-me h2 {
-    font-size: 2.5em;
-    line-height: 2;
-  }
-  .contact-me p {
-    font-size: 1.75em;
-    line-height: 2;
   }
 
   /* Footer */
