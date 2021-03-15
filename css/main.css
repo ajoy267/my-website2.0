@@ -508,16 +508,22 @@ footer .copyright {
   .my-portfolio p {
     font-size: 1.85em;
     line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .my-portfolio article {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 50%;
   }
+  .my-portfolio figure {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .my-portfolio .my-portfolio-items {
-    width: 50%;
+    width: 100%;
   }
 
   /***** About Me Page *****/
