@@ -169,7 +169,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 70%;
+  width: 100%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
@@ -178,9 +178,10 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 90%;
+  width: 100%;
   flex-flow: row wrap;
   padding-left: 5px;
+  padding-right: 5px;
 }
 footer {
   flex-direction: column;
@@ -228,10 +229,6 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  min-height: 400px;
-  background-image: url(../img/timetrial.jpg);
-  background-size: cover;
-  background-position: center;
   color:  #ffffff;
 }
 .about h3 {
@@ -485,6 +482,7 @@ footer .copyright {
   }
   header nav ul {
     justify-content: space-between;
+    width: 75%;
   }
   .header-divider {
     display: none;
