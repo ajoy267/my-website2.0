@@ -552,7 +552,6 @@ footer .copyright {
     width: 50%;
     height: 1000px;
     align-content: space-between;
-    flex-basis: 50%;
   }
   .portfolio figure {
     padding-left: 10px;
@@ -612,6 +611,14 @@ footer .copyright {
   .portfolio p {
     font-size: 1.5em;
     line-height: 1.75;
+  }
+  .portfolio .portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33%;
+    height: 1000px;
+    align-content: space-between;
   }
 
   /* Footer */
