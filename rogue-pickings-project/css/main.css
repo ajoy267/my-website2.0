@@ -1,0 +1,156 @@
+/***** Base Style *****/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/***** Grid *****/
+
+.full-width{
+    width: 1350px;
+    margin: 40px 20px 40px 25px;
+    overflow: auto;
+}
+.half-width{
+    width: 675px;
+    float: left;
+}
+.third-width{
+    width: 450px;
+    float: left;
+}
+
+/***** Header *****/
+
+header h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #77a466;
+}
+header h1 .colorTwo{
+    color: black;
+}
+nav{
+    float: right;
+    padding: 10px 5px 0 25px;
+}
+nav ul li {
+    display: inline-block;
+    color: #77a466;
+    padding-left: 20px;
+}
+
+/***** Image *****/
+
+img.resize{
+    width: 1400px;
+    height: 290px;
+    border: 3px solid white;
+}
+
+/***** About *****/
+
+#about h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 25px;
+    color: #77a466;
+}
+#about p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 25px;
+}
+
+/***** Menu *****/
+
+#menu{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#menu h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 25px;
+}
+#menu p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #77a466;
+    margin-bottom: 34.3px;
+}
+
+/***** Reviews *****/
+
+#reviews{
+    border: 1px solid gray;
+}
+#reviews h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#reviews p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 19px;
+}
+
+/***** Locations *****/
+
+#locations{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+#locations h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    line-height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#locations p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 85.3px;
+}
+
+/***** Footer *****/
+
+footer h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer h3 .colorone{
+    font-family: 'Galada', cursive;
+    color: #77a466;
+    text-transform: lowercase;
+}
