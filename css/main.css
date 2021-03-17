@@ -312,24 +312,6 @@ footer .copyright {
   margin-left: 25px;
   margin-right: 25px;
 }
-.about-me .background-info {
-  background-image: url(../img/sand.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-}
-.about-me .motivation {
-  background-image: url(../img/running.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-}
-.about-me .current-work {
-  background-image: url(../img/nationals.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 400px;
-}
 
 
 
