@@ -542,6 +542,21 @@ footer .copyright {
   .portfolio p {
     font-size: 1.75em;
     line-height: 1.75;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .portfolio .portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    height: 1000px;
+    align-content: space-between;
+    flex-basis: 50%;
+  }
+  .portfolio figure {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /* Footer */
