@@ -191,9 +191,6 @@ footer {
 footer h4 {
   font-size: 1.5em;
 }
-footer h6 {
-  font-size: 1.35em;
-}
 footer p {
   margin: 0;
   font-size: 1.125em;
@@ -545,10 +542,6 @@ footer .social-icons p i {
     font-size: 3em;
     line-height: 2;
   }
-  footer h6 {
-    font-size: 2.5em;
-    line-height: 2;
-  }
   footer p {
     font-size: 2em;
     line-height: 2;
@@ -614,10 +607,6 @@ footer .social-icons p i {
   /* Footer */
   footer h4{
     font-size: 2.5em;
-    line-height: 2;
-  }
-  footer h6 {
-    font-size: 2em;
     line-height: 2;
   }
   footer p {

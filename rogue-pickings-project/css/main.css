@@ -1,156 +1,233 @@
-/***** Base Style *****/
-
-body{
-    font-family: 'Montserrat', sans-serif;
-    color: black;
+html{
+	font-size: 16px;
 }
 
-/***** Grid *****/
-
-.full-width{
-    width: 1350px;
-    margin: 40px 20px 40px 25px;
-    overflow: auto;
-}
-.half-width{
-    width: 675px;
-    float: left;
-}
-.third-width{
-    width: 450px;
-    float: left;
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-/***** Header *****/
-
-header h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    color: #77a466;
-}
-header h1 .colorTwo{
-    color: black;
-}
-nav{
-    float: right;
-    padding: 10px 5px 0 25px;
-}
-nav ul li {
-    display: inline-block;
-    color: #77a466;
-    padding-left: 20px;
+.container{
+	max-width: 1200px;
+	width: 90%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
-/***** Image *****/
-
-img.resize{
-    width: 1400px;
-    height: 290px;
-    border: 3px solid white;
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: 0.75em;
 }
 
-/***** About *****/
-
-#about h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    font-variant: small-caps;
-    line-height: 25px;
-    color: #77a466;
-}
-#about p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
-    font-weight: normal;
-    line-height: 25px;
+p {
+	font-size: 0.875em;
+	line-height: 1.3125em;
+	padding: 0 30px;
 }
 
-/***** Menu *****/
-
-#menu{
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-    border-bottom: 1px solid gray;
-}
-#menu h4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-variant: small-caps;
-    line-height: 25px;
-}
-#menu p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 20px;
-    color: #77a466;
-    margin-bottom: 34.3px;
+/*The widths are in a percentage!*/
+header {
+	height: 21%;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	width: 100%;
 }
 
-/***** Reviews *****/
-
-#reviews{
-    border: 1px solid gray;
+header h1 {
+	margin: 0;
+	padding: 38px 0;
 }
-#reviews h4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-variant: small-caps;
-    line-height: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-#reviews p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 19px;
+header h1 span {
+	color: #77a466;
 }
 
-/***** Locations *****/
-
-#locations{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
-    border-left: 1px solid gray;
+header nav {
+	padding: 46px 0;
+	width: 100%;
 }
-#locations h4{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    font-variant: small-caps;
-    line-height: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
-#locations p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 28px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 85.3px;
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875em;
+	padding: 0 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
 }
 
-/***** Footer *****/
-
-footer h3{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 28px;
-    text-align: center;
-    text-transform: uppercase;
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
-footer h3 .colorone{
-    font-family: 'Galada', cursive;
-    color: #77a466;
-    text-transform: lowercase;
+
+.main-image {
+	height: auto;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	text-align: center;
+}
+.main-title h3 {
+	text-align: center;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5625em;
+	text-align: center;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #eee;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+}
+
+.section-one h4 {
+	padding: 10px 0;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 3%;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+	text-align: center;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.3125em;
+	text-align: center;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1.5em;
+	text-align: center;
+
+}
+
+/*The widths are in a percentage!*/
+footer {
+	height: 10%;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em;
+}
+
+
+/***** Breakpoints *****/
+@media all and (min-width:768px) {
+	.bottom-section {
+		justify-content: space-between;
+        align-items: flex-start;
+        border-top: 1px solid #eee;
+	}
+	.section-one,
+    .section-two,
+    .section-three {
+        border-top: none;
+        flex-basis: 30%;
+    }
+    .section-two {
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+        padding: 0 20px;
+    }
+}
+ 
+@media all and (min-width:1200px) {
+    header {
+        justify-content: space-between;
+    }
+    header h1 {
+        width: 30%;
+        padding: 0;
+        border-bottom: none;
+        text-align: left;
+    }
+    header nav {
+        width: 40%;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
 }
