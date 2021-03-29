@@ -178,10 +178,10 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 75%;
   flex-flow: row wrap;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 footer {
   flex-direction: column;
@@ -238,9 +238,10 @@ footer .social-icons p i {
 .about p {
   font-size: 1.5em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500; 
-  line-height: 1.2;
-  text-align: justify;
+  font-weight: 200; 
+  line-height: 1.5;
+  text-align: left;
+  padding: 0 20px 0 20px;
 }
 
 /* Portfolio */
