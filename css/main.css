@@ -484,18 +484,6 @@ footer .social-icons p i {
     padding-left: 10px;
     padding-right: 10px;
   }
-  
-
-  /***** About Me Page *****/
-  .about-me h3 {
-    font-size: 3em;
-    line-height: 2;
-  }
-  .about-me p {
-    font-size: 1.75em;
-    line-height: 2;
-  }
-
 
   /* Footer */
   footer h4{
