@@ -450,6 +450,7 @@ footer .social-icons p i {
   .about p {
     font-size: 1.85em;
     line-height: 2;
+    padding: 0 75px 0 75px;
   }
 
   /* Portfolio */
@@ -476,7 +477,7 @@ footer .social-icons p i {
     align-items: center;
     flex-flow: column;
     flex-basis: 50%;
-    height: 950px;
+    height: 800px;
     padding: 25px 0 25px 0;
   }
   .my-portfolio figure {
