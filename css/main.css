@@ -220,6 +220,13 @@ footer .social-icons p {
 footer .social-icons p i {
   font-size: 1.5em;
 }
+footer .artwork h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  font-weight: 100;
+}
 
 
 /* Mobile Styles - Homepage */
