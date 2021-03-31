@@ -95,7 +95,9 @@ body {
   font-size: 1em;
   font-family: 'Lato', sans-serif;
   text-align: left;
-  background-color: #1a1a1a;
+  background: url(../img/unsplash2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 ul, 
 ol {
@@ -494,7 +496,7 @@ footer .social-icons p i {
   }
   .my-portfolio article{
     flex-basis: 33%;
-    height: 900px;
+    height: 850px;
   }
 
   /* Footer */
